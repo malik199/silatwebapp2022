@@ -1,0 +1,153 @@
+{ "comp" : [
+    {
+      "firstname": "Yusuf",
+      "lastname": "Balti",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Isa",
+      "lastname": "Ahmad",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Bilal",
+      "lastname": "Balti",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Zayd",
+      "lastname": "Nayfeh",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Nararya",
+      "lastname": "Javas",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Asmaa",
+      "lastname": "Shafi",
+      "gender": "Female",
+      "country": "USA"
+    },
+    {
+      "firstname": "Sumayyah",
+      "lastname": "Syed",
+      "gender": "Female",
+      "country": "USA"
+    },
+    {
+      "firstname": "Zara",
+      "lastname": "Imran",
+      "gender": "Female",
+      "country": "USA"
+    },
+    {
+      "firstname": "Khaled",
+      "lastname": "Nayfeh",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Abdallah",
+      "lastname": "Shafi",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Abdullah",
+      "lastname": "Imran",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Omar",
+      "lastname": "Daken",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Hasan",
+      "lastname": "Shah",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Musa",
+      "lastname": "Shah",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Abimanyu",
+      "lastname": "Prastya",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Zadran",
+      "lastname": "Ayazi",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Rayyan",
+      "lastname": "Syed",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Sarah",
+      "lastname": "Mohamed",
+      "gender": "Female",
+      "country": "USA"
+    },
+    {
+      "firstname": "Noussaybah",
+      "lastname": "Zouitni",
+      "gender": "Female",
+      "country": "USA"
+    },
+    {
+      "firstname": "Gautom",
+      "lastname": "Das",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Syed",
+      "lastname": "Hossain",
+      "gender": "Male",
+      "country": "USA"
+    },
+    {
+      "firstname": "Muhammad Iqbal Bin",
+      "lastname": "Abdul Rahman",
+      "gender": "Male",
+      "country": "SG"
+    },
+    {
+      "firstname": "Nurzuhairah Binte",
+      "lastname": "Mohd Yazid",
+      "gender": "Female",
+      "country": "SG"
+    },
+    {
+      "firstname": "Amanda",
+      "lastname": "Pereira",
+      "gender": "Female",
+      "country": "USA"
+    },
+    {
+      "firstname": "Afrah Hanan",
+      "lastname": "Nirar",
+      "gender": "Female",
+      "country": "USA"
+    }
+  ]
+}

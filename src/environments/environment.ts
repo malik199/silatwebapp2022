@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: 'AIzaSyAsVSLJ4w4h8r2_Siw1P1iduqIXsreDiNM',
-    authDomain: 'test-7a916.firebaseapp.com',
-    projectId: 'test-7a916',
-    storageBucket: 'test-7a916.appspot.com',
-    messagingSenderId: '4779783242',
-    appId: '1:4779783242:web:43779e4b1abf6c9c91a2b3',
-  },
+    apiKey: "AIzaSyCJ15GwR0L6uEjngQhGykEvQdN4cfk2jXs",
+    authDomain: "silat-scoring.firebaseapp.com",
+    databaseURL: "https://silat-scoring.firebaseio.com",
+    projectId: "silat-scoring",
+    storageBucket: "silat-scoring.appspot.com",
+    messagingSenderId: "979909580445"
+  }
 };
 
 /*

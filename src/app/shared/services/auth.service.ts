@@ -7,6 +7,7 @@ import {
   AngularFirestoreDocument,
 } from '@angular/fire/compat/firestore';
 import { Router } from '@angular/router';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -15,7 +16,7 @@ export class AuthService {
   userData: any; // Save logged in user data
 
   constructor(
-    public afs: AngularFirestore, // Inject Firestore service
+    public db: AngularFirestore, // Inject Firestore service
     public afAuth: AngularFireAuth, // Inject Firebase auth service
     public router: Router,
     public ngZone: NgZone // NgZone service to remove outside scope warning
@@ -119,8 +120,8 @@ export class AuthService {
   sign up with username/password and sign in with social auth  
   provider in Firestore database using AngularFirestore + AngularFirestoreDocument service */
   SetUserData(user: any) {
-    const userRef: AngularFirestoreDocument<any> = this.afs.doc(
-      `users/${user.uid}`
+    const userRef: AngularFirestoreDocument<any> = this.db.doc(
+      `wasit-jury/${user.uid}`
     );
     const userData: User = {
       uid: user.uid,
@@ -128,6 +129,7 @@ export class AuthService {
       displayName: user.displayName,
       photoURL: user.photoURL,
       emailVerified: user.emailVerified,
+      role: "guest"
     };
     return userRef.set(userData, {
       merge: true,
@@ -140,5 +142,10 @@ export class AuthService {
       localStorage.removeItem('user');
       this.router.navigate(['sign-in']);
     });
+  }
+
+  // Get all staff, returns a observalbe
+  GetAllStaff() {
+    return this.db.collection('wasit-jury').valueChanges(); 
   }
 }
